@@ -1,0 +1,24 @@
+{
+  "name": "CouncilsMobile",
+  "author": "Viktor Shamal Andersen <Sphinxominator@gmail.com>",
+  "private": "true",
+  "devDependencies": {},
+  "dependencies": {
+    "ionic": "~1.1.0",
+    "angular": "~1.4.3",
+    "ngCordova": "~0.1.17-alpha",
+    "lodash": "~3.10.0",
+    "angular-route": "latest",
+    "angular-qrcode": "latest",
+    "angular-resource": "latest",
+    "angular-cookie": "latest",
+    "ng-token-auth": "latest",
+    "angular-restmod": "v1.2.x",
+    "angular-sanitize": "latest",
+    "angular-xeditable": "latest",
+    "components-font-awesome": "latest"
+  },
+  "resolutions": {
+    "angular": "1.4.3"
+  }
+}

@@ -1,0 +1,27 @@
+<ion-content>
+  <div class="card" ng-show='user.image'>
+    <div class="item item-avatar">
+      <img src="{{ user.image }}">
+      <h2>{{ user.name }}</h2>
+      <p>Elevrådsformand</p>
+    </div>
+  </div>
+  <div class="card" ng-hide="user.image">
+    <ion-item ng-click="authenticate('facebook')">
+      Login with Facebook
+    </ion-item>
+  </div>
+
+  <ion-list>
+      <div class="card">
+        <div ng-repeat="meeting in meetings" class="item item-text-wrap">
+          <ion-item>
+            Elevrådsmøde
+            <ion-option-button class="button-info" ui-sref='scan'>
+              Attend
+            </ion-option-button>
+          </ion-item>
+        </div>
+      </div>
+  </ion-list>
+</ion-content>
